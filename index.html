@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="format-detection" content="telephone=no" />
 <link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="shortcut icon" href="images/logo.png" />
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.js"></script>
@@ -38,7 +38,7 @@
 <!--==============================
               header
 =================================-->
-<header>
+<header id="header">
   <div class="container">
     <div class="row">
       <div class="grid_12 rel">
@@ -60,10 +60,10 @@
           <div class="navigation ">
             <nav>
               <ul class="sf-menu">
-               <li class="current"><a href="index.html">Home</a></li>
-               <li><a href="about.html">Sobre nosotros</a></li>
-               <li><a href="services.html">Servicios</a></li>
-               <li><a href="contacts.html">Contacto</a></li>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">Sobre nosotros</a></li>
+               <li><a href="#services">Servicios</a></li>
+               <li><a href="#contact">Contacto</a></li>
              </ul>
             </nav>
             <div class="clear"></div>
@@ -98,21 +98,21 @@
     </div>
   </section>
 </header>
-<div class="block-1">
+<div class="block-1" >
   <div class="container">
     <div class="row">
       <div class="grid_3">
-        <div class="block-1_count">2</div>
+        <div class="block-1_count">1+</div>
         Años de <br> Experiencia
         <div class="clear"></div>
       </div>
       <div class="grid_3">
-        <div class="block-1_count">10+</div>
+        <div class="block-1_count" style="font-size: 2.5em">100+</div>
         Clientes <br> Satisfechos
         <div class="clear"></div>
       </div>
       <div class="grid_3">
-        <div class="block-1_count">5</div>
+        <div class="block-1_count">5+</div>
         Alianzas <br> Estrategicas
         <div class="clear"></div>
       </div>
@@ -126,19 +126,20 @@
           Content
 ======================-->
 <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - July 28, 2014!</div>
-  <div class="container">
+  <div class="container" >
     <div class="row">
-      <div class="grid_10 preffix_1 ta__center">
+      <div class="grid_10 preffix_1 ta__center" id="about">
         <div class="greet">
           <h2 class="head__1">
             Bienvenido
           </h2>
-          ¡Nuestros Centros de Servicios Técnicos Especialistas, son el #1en Reparación de fallas a nivel de MICROELECTRÓNICA en todo el país!
+          ¡Nuestros Centros de Servicios Técnicos Especialistas, son el #1en Reparación de fallas a nivel de HARDWARE en todo el país!
+          Servitech viene trabajando fuertemente para satisfacer las necesidades de sus clientes, apostándole a la calidad y creando relaciones sólidas, duraderas y de confianza, siendo esto garantía de nuestro éxito. Cuando elige un servicio de mantenimiento o reparación para su equipo, elige mucho más que eso; elige una filosofía de trabajo que respeta principios y valores.
         </div>
       </div>
     </div>
   </div>
-  <article class="content_gray">
+  <article class="content_gray" id="services">
     <div class="container">
       <div class="row">
         <div class="grid_7">
@@ -163,14 +164,14 @@
           </div>
         </div>
         <div class="grid_4 preffix_1">
-          <h3>Testimonials</h3>
+          <h3>Testimonios</h3>
           <blockquote class="bq1">
             <p>“Gracias a Servitech pude recuperar las fotos de mi madre que fallecio el año pasado, de su computadora que el tenia... ”</p>
-            <span>Liza Jons</span>
+            <span>Ana Lourdes</span>
           </blockquote>
           <blockquote class="bq1">
             <p>“Gracias servitech porque repararon mi computadora que utilizo para trabajar y no tenia el suficiente dinero para comprar una nueva... ”</p>
-            <span>Mark Brown</span>
+            <span>Erika Martinez</span>
           </blockquote>
         </div>
       </div>
@@ -194,7 +195,7 @@
           <li><a href="#">Instalacion de software de usuario</a></li>
         </ul>
       </div>
-      <div class="grid_3">
+      <div class="grid_3" id="contact">
         <h4>Información de contacto</h4>
         <address>
           <ul class="cont_address">
@@ -202,6 +203,8 @@
             <li>+503 72176851 </li>
             <li><a href="#">info@servitech.com</a></li>
             <li><a href="#">www.servitech.com</a></li>
+            <li><a href="#" > <i class="fa fa-facebook-square" style="color: blue; font-size: 20px; margin-right:10px"></i> ServitechSV</a></li>
+            <li><a href="#" > <i class="fa fa-instagram" style="color: darkmagenta; font-size: 20px; margin-right:10px"></i> ServitechSV</a></li>
           </ul>
         </address>
       </div>
